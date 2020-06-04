@@ -63,10 +63,10 @@ function nvminstall() {
 function nrminstall() {
     echo "全局安装nrm"
     npm install nrm -g
-    echo "默认私服源"
-    nrm add szyx-pull http://nexus.51trust.com/repository/npm-group/
-    nrm add szyx-push http://nexus.51trust.com/repository/npm-hosted/
-    nrm use szyx-pull
+    echo "默认taobao源"
+    # nrm add szyx-pull http://nexus.51trust.com/repository/npm-group/
+    # nrm add szyx-push http://nexus.51trust.com/repository/npm-hosted/
+    nrm use taobao
 }
 function watchmanInstall() {
     brew install watchman
