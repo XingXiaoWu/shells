@@ -133,6 +133,7 @@ function flutterInstall() {
     brew install ios=deploy
     podinstall
     flutter doctor
+    echo "iOS所需环境安装完毕,Android请自行下载Android Studio翻墙安装Android环境"
     echo "请根据flutter doctor的输出结果检查还有什么不对的地方"
 
 }
